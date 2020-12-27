@@ -13,8 +13,8 @@
 
 2. Create Database, user and grant privillages
 
-'''psql
+```psql
 CREATE DATABASE conduit;
 create user conduit with encrypted password 'conduit';
 grant all privileges on database conduit to conduit;
-'''
+```
